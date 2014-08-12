@@ -1,0 +1,739 @@
+<Response>
+<TransactionID>57407121</TransactionID>
+<ErnstResponse>
+<Request>
+<ClientTransactionID>
+</ClientTransactionID>
+<TransactionID>57407121</TransactionID>
+<Page>NY005</Page>
+<City>
+</City>
+<County>Albany</County>
+<State>NY</State>
+<TransactionCode>100</TransactionCode>
+<DeedNumberOfPages>3</DeedNumberOfPages>
+<MortgageNumberOfPages>20</MortgageNumberOfPages>
+<MortgageAmount>200000.0</MortgageAmount>
+<OriginalDebtAmount>0.0</OriginalDebtAmount>
+<UnpaidPrincipalBalance>0.0</UnpaidPrincipalBalance>
+<EstimatedValue>250000.0</EstimatedValue>
+<Title>
+</Title>
+<TitleAmount>0.0</TitleAmount>
+<OriginalTitleAmount>0.0</OriginalTitleAmount>
+<OriginalMortgageDate>
+</OriginalMortgageDate>
+<AssignmentPages>
+</AssignmentPages>
+<AssignmentNumber>
+</AssignmentNumber>
+<ReleasePages>3</ReleasePages>
+<ReleaseNumber>1</ReleaseNumber>
+<StateQuestions>
+<Q1>
+</Q1>
+<Q2>
+</Q2>
+<Q3>
+</Q3>
+<Q4>
+</Q4>
+<Q5>
+</Q5>
+<Q6>
+</Q6>
+<Q7>
+</Q7>
+<Q8>
+</Q8>
+<Q9>
+</Q9>
+<Q10>
+</Q10>
+<Q11>
+</Q11>
+<Q12>
+</Q12>
+<Q13>
+</Q13>
+<Q14>
+</Q14>
+<Q15>
+</Q15>
+<Q16>
+</Q16>
+<Q17>
+</Q17>
+<Q18>
+</Q18>
+<Q19>
+</Q19>
+<Q20>
+</Q20>
+<Q21>
+</Q21>
+<Q22>
+</Q22>
+<Q23>
+</Q23>
+<Q24>
+</Q24>
+<Q25>
+</Q25>
+<Q26>
+</Q26>
+<Q27>
+</Q27>
+<Q28>
+</Q28>
+<Q29>
+</Q29>
+<Q30>
+</Q30>
+<Q31>
+</Q31>
+<Q32>
+</Q32>
+<Q33>
+</Q33>
+<Q34>
+</Q34>
+<Q35>
+</Q35>
+<Q36>
+</Q36>
+<Q37>
+</Q37>
+<Q38>
+</Q38>
+<Q39>
+</Q39>
+<Q40>
+</Q40>
+<Q41>
+</Q41>
+<Q42>
+</Q42>
+<Q43>
+</Q43>
+<Q44>
+</Q44>
+<Q45>
+</Q45>
+<Q46>
+</Q46>
+<Q47>
+</Q47>
+<Q48>
+</Q48>
+<Q49>
+</Q49>
+<Q50>
+</Q50>
+<V1>
+</V1>
+<V2>
+</V2>
+<V3>
+</V3>
+<V4>
+</V4>
+<V5>
+</V5>
+<V6>
+</V6>
+<V7>
+</V7>
+<V8>
+</V8>
+<V9>
+</V9>
+<V10>
+</V10>
+<V11>
+</V11>
+<V12>
+</V12>
+<V13>
+</V13>
+<V14>
+</V14>
+<V15>
+</V15>
+<V16>
+</V16>
+<V17>
+</V17>
+<V18>
+</V18>
+<V19>
+</V19>
+<V20>
+</V20>
+<V21>
+</V21>
+<V22>
+</V22>
+<V23>
+</V23>
+<V24>
+</V24>
+<V25>
+</V25>
+<V26>
+</V26>
+<V27>
+</V27>
+<V28>
+</V28>
+<V29>
+</V29>
+<V30>
+</V30>
+<V31>
+</V31>
+<V32>
+</V32>
+<V33>
+</V33>
+<V34>
+</V34>
+<V35>
+</V35>
+<V36>
+</V36>
+<V37>
+</V37>
+<V38>
+</V38>
+<V39>
+</V39>
+<V40>
+</V40>
+<V41>
+</V41>
+<V42>
+</V42>
+<V43>
+</V43>
+<V44>
+</V44>
+<V45>
+</V45>
+<V46>
+</V46>
+<V47>
+</V47>
+<V48>
+</V48>
+<V49>
+</V49>
+<V50>
+</V50>
+</StateQuestions>
+</Request>
+<Data>
+<Refacts>
+<STABBR>NY</STABBR>
+<ROFFICE>Albany County</ROFFICE>
+<COUNTY>Albany</COUNTY>
+<PAGE>NY005</PAGE>
+<PAGEKEY2>NY038</PAGEKEY2>
+<PHONE>518-487-5101</PHONE>
+<EXT />
+<FAX>518-487-5099</FAX>
+<TIMEZONE>EST</TIMEZONE>
+<ATTN>Attn: Real Estate Recording</ATTN>
+<DEPT>Albany County Clerk</DEPT>
+<PAYEE>Albany County Clerk</PAYEE>
+<FEEPAY>Required for DBA filings.</FEEPAY>
+<MADDR1>16 Eagle Street</MADDR1>
+<MADDR2>County Court House RM 128</MADDR2>
+<MCITYST>Albany, NY 12207</MCITYST>
+<MCITY>Albany</MCITY>
+<MZIP>12207</MZIP>
+<CADDR1>16 Eagle Street</CADDR1>
+<CADDR2>County Court House RM 128</CADDR2>
+<CCITYST>Albany, NY 12207</CCITYST>
+<CCITY>Albany</CCITY>
+<CZIP>12207</CZIP>
+<HOURS>9AM-5PM</HOURS>
+<TITLE>County Clerk</TITLE>
+<TAT>10-12 weeks*</TAT>
+<TATNUM>70</TATNUM>
+<DEED>Grantor/Grantee</DEED>
+<MORTGAGE>Mortgagor/Mortgagee</MORTGAGE>
+<COUNTYFIPS>36001</COUNTYFIPS>
+<LASTUPD> </LASTUPD>
+<DEEDDESC>Deed</DEEDDESC>
+<DEEDFEE>50</DEEDFEE>
+<DEEDCD>165</DEEDCD>
+<MORTDESC>Mortgage/Deed of Trust</MORTDESC>
+<MORTFEE>50</MORTFEE>
+<MORTCD>165</MORTCD>
+<AMFEE>50.5</AMFEE>
+<AMCD>165</AMCD>
+<ASSNDESC>Assignment</ASSNDESC>
+<ASSNFEE>50.5</ASSNFEE>
+<ASSNCD>165</ASSNCD>
+<SATDESC>Satisfaction</SATDESC>
+<SATFEE>50.5</SATFEE>
+<SATCD>165</SATCD>
+<ADDPGFEE>5</ADDPGFEE>
+<ADDPGCD>24</ADDPGCD>
+<NONSTDFEE>0</NONSTDFEE>
+<NSCD>0</NSCD>
+<SMPRNTFEE>0</SMPRNTFEE>
+<SMPRCD>0</SMPRCD>
+<LEGALFEE>50</LEGALFEE>
+<LEGALCD>165</LEGALCD>
+<ADDTYPE1>3</ADDTYPE1>
+<ADDFEE1>0.5</ADDFEE1>
+<ADDCD1>479</ADDCD1>
+<ADDTYPE2>85</ADDTYPE2>
+<ADDFEE2>0.5</ADDFEE2>
+<ADDCD2>153</ADDCD2>
+<ADDTYPE3>53</ADDTYPE3>
+<ADDFEE3>3</ADDFEE3>
+<ADDCD3>185</ADDCD3>
+<ADDTYPE4>51</ADDTYPE4>
+<ADDFEE4>125</ADDFEE4>
+<ADDCD4>184</ADDCD4>
+<ADDTYPE5>52</ADDTYPE5>
+<ADDFEE5>5</ADDFEE5>
+<ADDCD5>476</ADDCD5>
+<ADDTYPE6>28</ADDTYPE6>
+<ADDFEE6>3</ADDFEE6>
+<ADDCD6>120</ADDCD6>
+<DESC1>Real Estate Transfer Tax</DESC1>
+<TAX1>4</TAX1>
+<TAX1CD>158</TAX1CD>
+<DESC2>Mortgage Tax</DESC2>
+<TAX2>1.25</TAX2>
+<TAX2CD>160</TAX2CD>
+<DESC3 />
+<TAX3>0</TAX3>
+<TAX3CD>0</TAX3CD>
+<TAXNOTE>NYTXY</TAXNOTE>
+<SEARCH>Y</SEARCH>
+<COPYFEE>0.65</COPYFEE>
+<COPYCD1>161</COPYCD1>
+<COPYFEE2>0.65</COPYFEE2>
+<COPYCD2>24</COPYCD2>
+<CERTFEE>1.25</CERTFEE>
+<CERTCD>187</CERTCD>
+<DOCSYSTEM>Liber &amp; Page</DOCSYSTEM>
+<DSEXAMPLE>LIBER 3423 Page 1-12</DSEXAMPLE>
+<FEENOTE1>NYCV2</FEENOTE1>
+<FEENOTE2>NYCRS</FEENOTE2>
+<FEENOTE3>NYMOR</FEENOTE3>
+<RECNOTE1 />
+<RECNOTE2 />
+<RECNOTE3>NYERR</RECNOTE3>
+<BLASSN>Y</BLASSN>
+<BLREL>N</BLREL>
+<ARNUM>0</ARNUM>
+<ARTYPE />
+<DOCRETURN />
+<SASE>Q</SASE>
+<SUBDOCS>N</SUBDOCS>
+<LDIND>dm</LDIND>
+<LDDESC>Legal description required only with deeds and mortgages (trust deeds).</LDDESC>
+<CAPFEE>0</CAPFEE>
+<CAPCD>0</CAPCD>
+<C1 />
+<PIN>n</PIN>
+<PINNAME />
+<PINON />
+<PINFORM />
+<PINNOTE />
+<WEBADDR>www.albanycounty.com/clerk</WEBADDR>
+<FIPSB>36001</FIPSB>
+<UPDATED> </UPDATED>
+</Refacts>
+</Data>
+<SupplementalAddress>
+<Address>
+<Type>Trustee</Type>
+<Name />
+<Address1 />
+<Address2 />
+<City />
+<State />
+<Zip />
+<Phone />
+<Fax />
+<Email />
+</Address>
+<Address>
+<Type>Payee</Type>
+<Name />
+<Address1 />
+<Address2 />
+<City />
+<State />
+<Zip />
+<Phone />
+<Fax />
+<Email />
+</Address>
+</SupplementalAddress>
+<Display>
+<Calculation>
+<Mortgage>
+<Fee>145</Fee>
+<Tax>2500.00</Tax>
+<RoundedMortgage>200000</RoundedMortgage>
+<StateTax>2500.00</StateTax>
+<CountyTax>0.00</CountyTax>
+<CityTax>0.00</CityTax>
+</Mortgage>
+<Deed>
+<Fee>190</Fee>
+<Tax>1000.00</Tax>
+<RoundedDeed>250000</RoundedDeed>
+<StateTax>1000.00</StateTax>
+<CountyTax>0.00</CountyTax>
+<CityTax>0.00</CityTax>
+<BuyerSplit>0.00</BuyerSplit>
+<BuyerSplitRate>0</BuyerSplitRate>
+<SellerSplit>0.00</SellerSplit>
+<SellerSplitRate>0</SellerSplitRate>
+<BuyerSellerNote />
+<RoundedDeedState>0</RoundedDeedState>
+<RoundedDeedCounty>0</RoundedDeedCounty>
+<RoundedDeedCity>0</RoundedDeedCity>
+</Deed>
+<Release>
+<Fee>60.5</Fee>
+</Release>
+<HUD>
+<HUDLine>
+<LineNumber>1109</LineNumber>
+<LineDescription>Lenders Coverage</LineDescription>
+<TitlePremium>0</TitlePremium>
+</HUDLine>
+<HUDLine>
+<LineNumber>1201</LineNumber>
+<LineDescription>Recording fees</LineDescription>
+<DeedAmount>190</DeedAmount>
+<MortgageAmount>145</MortgageAmount>
+<ReleaseAmount>60.5</ReleaseAmount>
+</HUDLine>
+<HUDLine>
+<LineNumber>1202</LineNumber>
+<LineDescription>City/County tax/stamps</LineDescription>
+<DeedAmount>0.00</DeedAmount>
+<MortgageAmount>0.00</MortgageAmount>
+<ReleaseAmount>0</ReleaseAmount>
+</HUDLine>
+<HUDLine>
+<LineNumber>1203</LineNumber>
+<LineDescription>State tax/stamps</LineDescription>
+<DeedAmount>1000.00</DeedAmount>
+<MortgageAmount>2500.00</MortgageAmount>
+<ReleaseAmount>0</ReleaseAmount>
+</HUDLine>
+<HUDLine>
+<LineNumber>1204</LineNumber>
+<LineDescription>Miscellaneous fee/taxes</LineDescription>
+<DeedAmount>0</DeedAmount>
+<MortgageAmount>0</MortgageAmount>
+<ReleaseAmount>0</ReleaseAmount>
+</HUDLine>
+<HUDLine>
+<LineNumber>1205</LineNumber>
+<LineDescription>Miscellaneous fee/taxes</LineDescription>
+<DeedAmount>0</DeedAmount>
+<MortgageAmount>0</MortgageAmount>
+<ReleaseAmount>0</ReleaseAmount>
+</HUDLine>
+</HUD>
+<MortgageFee>145</MortgageFee>
+<MortgageTax>2500.00</MortgageTax>
+<MortgageNote>
+</MortgageNote>
+<DeedFee>190</DeedFee>
+<DeedTax>1000.00</DeedTax>
+<DeedNote>
+</DeedNote>
+<Assumptions>
+<Assumption>
+<![CDATA[DEED RECORDING FEE COMPUTATION LIMITED TO ONE LEGAL DESCRIPTION.]]>
+</Assumption>
+<Assumption>
+<![CDATA[THE BOROUGHS OF NYC REQUIRE TAX FORM (NYC-RPT) - TAX AMOUNTS RETURNED ARE ESTIMATES ONLY, ACTUAL COMPUTATION REQUIRES COMPLETION OF THE AFOREMENTIONED FORM.]]>
+</Assumption>
+<Assumption>
+<![CDATA[DO NOT COUNT COVER SHEETS PREPARED BY THE SUBMITTER AS A PAGE.]]>
+</Assumption>
+<Assumption>
+<![CDATA[A CITY TRANSFER TAX IS ALSO IMPOSED AT VARIOUS RATES, COMPUTED ON A SPECIAL TRANSFER TAX RETURN (NYC-RPT), WHICH MUST ACCOMPANY EACH DEED. ALL TRANSACTIONS ARE CONSUMMATED SUBSEQUENT TO 6/15/96.]]>
+</Assumption>
+<Assumption>
+<![CDATA[NYC - THE NYC-RPT FORM INCURS A RECORDING FEE OF $125.00 IF THE PROPERTY IS RESIDENTAIL AND $250.00 IF IT IS COMMERCIAL, AND IS INCLUDED IN THE ABOVE TRANSFER TAX.]]>
+</Assumption>
+<Assumption>
+<![CDATA[THERE IS AN ADDITIONAL MANSION TAX BEING APPLIED AT 1% OF CONSIDERATION IN ADDITION TO BASIC TRANSFER TAXES FOR RESIDENCES WITH A VALUE OF $1,000,000 OR MORE.]]>
+</Assumption>
+<Assumption>
+<![CDATA[IMPROVED LAND ONLY. DIFFERENT EXEMPTION LEVELS APPLY TO UNIMPROVED LAND.]]>
+</Assumption>
+<Assumption>
+<![CDATA[NYC - IF YOU ERRONEOUSLY ANSWERED "YES" TO BOTH OF THE PRECEDING RECORDING QUESTIONS, WE HAVE ASSUMED THE PROPERTY IS A 1-2 FAMILY HOUSE OR ANY RESIDENTIAL CONDOMINIUM.]]>
+</Assumption>
+<Assumption>
+<![CDATA[INDEXED NAMES FEES:<BR>
+<BR>RENSSELAER AND SCHENECTADY COUNTIES: CHARGE AN ADDITIONAL $.50 FEE TO INDEX ANY NAME AFTER THE FIRST TWO (ONE GRANTOR AND ONE GRANTEE)<BR>
+<BR>ALBANY, ESSEX, MONTGOMERY, AND ONEIDA COUNTIES: CHARGE AN ADDITIONAL $.50 INDEXING FEE AFTER THE FIRST FOUR NAMES (TWO GRANTORS AND TWO GRANTEES, FOR EXAMPLE)<BR>
+<BR>CLINTON, COLUMBIA, FRANKLIN, FULTON, HAMILTON, HERKIMER, JEFFERSON, LEWIS, ONONDAGA, OSWEGO, SARATOGA, SCHOHARIE, ST. LAWRENCE, WARREN, AND WASHINGTON COUNTIES: CHARGE AN ADDITIONAL $.50 FEE AFTER THE FIRST TWO NAMES (ONE GRANTOR AND ONE GRANTEE, FOR EXAMPLE) WHERE THE SURNAME IS DIFFERENT THAN THE FIRST NAME.<BR/>
+<BR/> GREENE COUNTY: CHARGES THE ADDITIONAL $.50 INDEXING FEE FOR EACH NAME AFTER THE FIRST FOR THE MORTGAGE ONLY.]]>
+</Assumption>
+<Assumption>
+<![CDATA[FRANKLIN COUNTY - AN AFFIDAVIT OF EXEMPTION HAS BEEN SUBMITTED WITH THIS NEW MORTGAGE AND THE FEE TO RECORD THE AFFADAVIT IS $5.00 AND HAS BEEN ADDED TO THE RECORDING FEE.]]>
+</Assumption>
+<Assumption>
+<![CDATA[<B>WHEN A SECTION 255 MORTGAGE TAX AFFIDAVIT OF EXEMPTION (DUPLICATE REQUIRED) IS SUBMITTED WITH A REFINANCING BY CONSOLIDATION, EXTENSION OR MODIFICATION OF A FIXED AMOUNT MORTGAGE AND/OR LINE OF CREDIT, ADD $5.00 TO THE RECORDING FEE.</B>]]>
+</Assumption>
+<Assumption>
+<![CDATA[THE BUYER AND LENDER ARE EACH RESPONSIBLE FOR A PORTION OF THE MORTGAGE TAX, AS SET FORTH IN THE DETAIL ABOVE.]]>
+</Assumption>
+</Assumptions>
+</Calculation>
+<RecordingWorksheet>
+<Office>
+<County>
+</County>
+<CourierAddress1>16 Eagle Street</CourierAddress1>
+<CourierAddress2>County Court House RM 128</CourierAddress2>
+<CourierCityStateZIP>Albany, NY 12207</CourierCityStateZIP>
+<Department>Attn: Real Estate Recording</Department>
+<Fax>518-487-5099</Fax>
+<Jurisdiction>Albany County Clerk</Jurisdiction>
+<MailingAddress1>16 Eagle Street</MailingAddress1>
+<MailingAddress2>County Court House RM 128</MailingAddress2>
+<MailingCityStateZIP>Albany, NY 12207</MailingCityStateZIP>
+<MoneyOrder>Required for DBA filings.</MoneyOrder>
+<Payee>Albany County Clerk</Payee>
+<Phone>518-487-5101</Phone>
+<PhoneExt>
+</PhoneExt>
+<RecordingOffice>Albany County</RecordingOffice>
+<TimeZone>EST</TimeZone>
+<Website>http://www.albanycounty.com/clerk</Website>
+</Office>
+<BasicRecordingFees>
+<Heading>BASIC RECORDING FEES:</Heading>
+<Fee>
+<Description>Deed</Description>
+<Amount>$50.00</Amount>
+<Label>for the first page (see note 1)</Label>
+</Fee>
+<Fee>
+<Description>Mortgage/Deed of Trust</Description>
+<Amount>$50.00</Amount>
+<Label>for the first page (see note 1)</Label>
+</Fee>
+<Fee>
+<Description>Amendment/Modification</Description>
+<Amount>$50.50</Amount>
+<Label>for the first page (see note 1)</Label>
+</Fee>
+<Fee>
+<Description>Assignment</Description>
+<Amount>$50.50</Amount>
+<Label>for the first page (see note 1)</Label>
+</Fee>
+<Fee>
+<Description>Satisfaction</Description>
+<Amount>$50.50</Amount>
+<Label>for the first page (see note 1)</Label>
+</Fee>
+<Fee>
+<Description>Power of Attorney</Description>
+<Amount>$50.00</Amount>
+<Label>for the first page (see note 1)</Label>
+</Fee>
+</BasicRecordingFees>
+<AdditionalRecordingFees>
+<Heading>ADDITIONAL RECORDING FEES:</Heading>
+<Fee>
+<Description>Additional pages and attachments</Description>
+<Amount>$5.00</Amount>
+<Label>per additional page</Label>
+</Fee>
+<Fee>
+<Description>Indexing fee</Description>
+<Amount>$0.50</Amount>
+<Label>per name after 2 grantors and 2 grantees</Label>
+</Fee>
+<Fee>
+<Description>Cross references</Description>
+<Amount>$0.50</Amount>
+<Label>per book &amp; page referenced after first</Label>
+</Fee>
+<Fee>
+<Description>Partial release of mortgage</Description>
+<Amount>$3.00</Amount>
+<Label>per mortgage released after the first</Label>
+</Fee>
+<Fee>
+<Description>Real Property Transfer Report (RP-5217)</Description>
+<Amount>$125.00</Amount>
+<Label>per form with deed ($250.00 if not residential or agricultural)</Label>
+</Fee>
+<Fee>
+<Description>Transfer Tax Return (TP584)</Description>
+<Amount>$5.00</Amount>
+<Label>per form with deed</Label>
+</Fee>
+<Fee>
+<Description>Multiple assignments on one document</Description>
+<Amount>$3.00</Amount>
+<Label>per assignment after first</Label>
+</Fee>
+</AdditionalRecordingFees>
+<RecordingFeeNotes>
+<Heading>RECORDING FEE NOTES:</Heading>
+<Note>
+<![CDATA[1. Basic fee includes a cover sheet, which the county will prepare.]]>
+</Note>
+<Note>
+<![CDATA[2. The additional cross reference fee applies in addition to any extra fee for multiple assignments, partial releases or full releases after the first on one document.]]>
+</Note>
+<Note>
+<![CDATA[3. When a Section 255 Mortgage Tax Affidavit of Exemption (duplicate required) is submitted with a refinancing by consolidation, extension or modification of a fixed amount mortgage and/or line of credit, an additional recording fee of $5.00 is included in the calculation of the recording fee.]]>
+</Note>
+</RecordingFeeNotes>
+<Taxes>
+<Heading>TRANSFER AND FINANCING FEES/TAXES:</Heading>
+<Tax>
+<Description>Real Estate Transfer Tax</Description>
+<Amount>$4.00</Amount>
+<Label>per $1,000 or fraction thereof of consideration</Label>
+</Tax>
+<Tax>
+<Description>Mortgage Tax</Description>
+<Amount>$1.25</Amount>
+<Label>per $100 or major fraction thereof of debt</Label>
+</Tax>
+<Note>
+<![CDATA[If consideration is $500 or less, no transfer tax is due. Mortgage tax rate is for 1-2 family dwellings if $10,000 or more, less a $25 credit, and $1.00 per $100 if $10,000 or less. Rate is $1.25 per $100 for other properties. Also see recording notes.]]>
+</Note>
+</Taxes>
+<Searches>
+<Heading>SEARCHES, COPIES AND CERTIFICATION:</Heading>
+<Note>
+<![CDATA[This office will perform limited searches of real estate records.]]>
+</Note>
+<Fee>
+<Description>Copies made by office</Description>
+<Amount>$0.65</Amount>
+<Label>for the first page, $1.30 minimum</Label>
+</Fee>
+<Fee>
+<Description>Multiple page copies</Description>
+<Amount>$0.65</Amount>
+<Label>per additional page</Label>
+</Fee>
+<Fee>
+<Description>Certification (in addition to copy fees)</Description>
+<Amount>$1.25</Amount>
+<Label>per page, $5.00 minimum, including copies</Label>
+</Fee>
+</Searches>
+<RecordingNotes>
+<Heading>DOCUMENTATION/RECORDING NOTES:</Heading>
+<Note>
+<![CDATA[Blanket assignments are accepted.]]>
+</Note>
+<Note>
+<![CDATA[Blanket satisfactions are not accepted.]]>
+</Note>
+<Note>
+<![CDATA[Originals of real estate documents are always returned after recording.]]>
+</Note>
+<Note>
+<![CDATA[A self addressed stamped return envelope of the proper size is requested.]]>
+</Note>
+<Note>
+<![CDATA[In subsequent related documents, only reference (book/page, doc#, etc.) to the original document is required.]]>
+</Note>
+<Note>
+<![CDATA[Index for Deeds: Grantor/Grantee]]>
+</Note>
+<Note>
+<![CDATA[Index for Mortgages: Mortgagor/Mortgagee]]>
+</Note>
+<Note>
+<![CDATA[Common document errors include incorrect fee, incomplete notarial certificate, missing or incorrect reference to previously recorded document, missing signature, corporate seal missing when required, and submitting document to the wrong county.]]>
+</Note>
+<Note>
+<![CDATA[This office reports a document turnaround time of 10-12 weeks*]]>
+</Note>
+<Note>
+<![CDATA[Most recent annual document volume reported by this office: 36775]]>
+</Note>
+<DocSystem>Liber &amp; Page</DocSystem>
+<DSExample>LIBER 3423 Page 1-12</DSExample>
+</RecordingNotes>
+<LDDescription>
+<![CDATA[Legal description required only with deeds and mortgages (trust deeds).]]>
+</LDDescription>
+<PIN>
+<PINRequired>Not required</PINRequired>
+</PIN>
+<OnlineSearching>www.albanycounty.com/clerk</OnlineSearching>
+<ConformedCopies>This office will provide Conformed Copies. No additional fee.</ConformedCopies>
+<SASE>Include a self-addressed, stamped envelope for return of Conformed Copies.</SASE>
+<UCCOfficials>
+<Heading>RECORDING OFFICE STAFF:</Heading>
+<Official>
+<Description>Head Official</Description>
+<Name>Bruce A Hidley</Name>
+<Title>County Clerk</Title>
+</Official>
+<Official>
+<Description>Other Official</Description>
+<Name>James McKiernan</Name>
+<Title>Executive Deputy</Title>
+</Official>
+<Official>
+<Description>Other Official</Description>
+<Name>Marlene Dion</Name>
+<Title>Deputy County Clerk</Title>
+</Official>
+<Official>
+<Description>Other Official</Description>
+<Name>Geraldine M Gould</Name>
+<Title>Deputy County Clerk</Title>
+</Official>
+<Official>
+<Description>Other Official</Description>
+<Name>Lynn Vaillancourt</Name>
+<Title>Deputy County Clerk</Title>
+</Official>
+<Official>
+<Description>Other Official</Description>
+<Name>Maureen A Bouchey</Name>
+<Title>Clerk</Title>
+</Official>
+</UCCOfficials>
+</RecordingWorksheet>
+<DocumentLinks>
+<Link>
+<Label>Charts</Label>
+<URL>
+<![CDATA[http://www.ernstpublishing.com/extsubscribers/ResourceDownload.asp?username=LodeStar&password=TestAccoun&action=authenticate&doc=repdfs/intros/allcharts.pdf]]>
+</URL>
+</Link>
+<Link>
+<Label>State Forms</Label>
+<URL>
+<![CDATA[http://www.ernstpublishing.com/extsubscribers/ResourceDownload.asp?username=LodeStar&password=TestAccoun&action=authenticate&doc=repdfs/illustrations/NYf.pdf]]>
+</URL>
+</Link>
+</DocumentLinks>
+</Display>
+</ErnstResponse>
+</Response>

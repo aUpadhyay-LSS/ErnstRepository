@@ -1,0 +1,339 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <?php
+header('P3P: CP="CAO PSA OUR"');
+session_start();
+$_SESSION['Username'] = "Mobile";
+
+?>
+  <style>
+
+   .overlay{
+    display: none;
+    background-image:url(Images/transpBlack75.png); 
+  }
+
+  .overlaybody{
+    display: inherit;
+     width: 90%;
+     margin: 50px auto;
+     background-color: #fff;
+     border:1px solid #000;
+     padding:15px;
+     text-align:center;
+}
+
+.overlay-close{
+  display: inherit;
+  background:url(Images/circle-cross.png) no-repeat !important;
+    cursor:pointer;
+    border:none;
+    width:25px;
+    height:25px;
+    right: 5px;
+    float:right;
+}
+
+.overlay-text{
+  display: inherit;
+  font-size: 10px;
+
+}
+
+.btn-group{
+  margin-top: 10px;
+}
+  </style>
+<!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" /> -->
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+<!-- <link rel="stylesheet" href="css/respons-update.css" type="text/css" > -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<!-- <link rel="stylesheet" href="stylesheets/datepicker.css" />   -->
+<script>$(function() {    $( "#datepicker" ).datepicker();  });  </script>
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="js/respond.js"></script>
+<![endif]-->
+<script>
+//Pushing data to GFE_RESULTS and displaying
+$(function() {
+  //function to display GFE_results dialog
+  /*  $( "#dialog" ).dialog({
+      autoOpen: false,
+      height: 400,
+      width: 350,
+      modal: true
+  });*/
+
+    $( "#CalculateRate" )
+      .button()
+      .click(function() {
+        submitForm('CalculateRate');
+      
+      });
+
+    $( "#ReissueRate" )
+      .button()
+      .click(function() {
+        submitForm('ReissueRate');
+      });
+
+     $( "#EmailQuote1" )
+      .button()
+      .click(function() {
+        var emailTo = prompt('Enter Your Email Address','example@example.com'); 
+        submitForm('emailTo=' + emailTo + '&EmailQuote=y' + '&needEmail=y');
+      });
+
+      $( "#EmailQuote2" )
+      .button()
+      .click(function() {
+        var emailTo = prompt('Enter Your Email Address','example@example.com'); 
+        submitForm('emailTo=' + emailTo + '&EmailQuote=y' + '&needEmail=y','y');
+      });
+
+      $( ".request-title" )
+      .button()
+      .click(function() {
+        var emailTo = prompt('Enter Your Email Address','example@example.com'); 
+        submitForm('emailTo=' + emailTo + '&RequestTitle=y&EmailQuote=y' + '&needEmail=y');
+      });
+
+      $('.overlay-close').button().click(function(){
+        $('.overlay').hide();
+      });
+
+    var submitForm = function (buttonName,skip) {
+      //Function to empty dialog box, ajax to GFE_results and add new information.
+      var formData = $('#CALC').serialize() + "&" + buttonName + "=" + buttonName;
+          $.ajax({
+        url: "GFE_results.php",
+        data: formData,
+        type: "POST",
+        success: function(data){
+          var resultData;
+          if($(data).filter('.response-container').length){
+            resultData = $(data).filter('.response-container');
+          }
+          else{
+            resultData = "<div> Zipcode not reconginized</div>";
+          }
+          if(typeof(skip)==='undefined'){
+          $("#dialog .overlaybody .overlay-text").empty();
+          resultData.find('table').css('font-size','10px');
+          $('#dialog .overlaybody .overlay-text').append(resultData);
+          $('#dialog .overlaybody .overlay-text').filter('.response-container').css('max-width', '90%');
+          $('.overlay').filter('.response-container').css('font-size', '12px');
+          $( "#dialog" ).slideToggle( "slow" );
+          }
+        }
+      });
+    };
+
+});
+</script>
+
+<script>
+
+function ValidateGFE(){
+  var result="";
+  
+     //Sets default off for mansion tax inicator
+    document.CALC.mansion.value = "";
+    
+  if(document.CALC.salesprice.value >1000000 && document.CALC.loantype[0].checked == true && document.CALC.state.value=="NJ")
+  {
+    var mansion=confirm("Please click 'Ok' if Property is 1-3 Family home");
+      
+    if(mansion==true){
+      document.CALC.mansion.value = "Yes";
+    }
+  }
+  
+  //checks loan amount
+  if(document.CALC.loanamount.value >=0 && document.CALC.loanamount.value < 100000000){}
+  else {alert("Please enter a valid loan amount"); document.CALC.loanamount.value=0; return false;}
+  
+  //checks purchase price
+  if(document.CALC.salesprice.value >=0 &&  document.CALC.salesprice.value < 100000000){}
+  else {alert("Please enter a valid purchase price"); document.CALC.salesprice.value=0; return false;}
+  
+  //checks existing debt
+  if(document.CALC.exdebt.value >=0 && document.CALC.exdebt.value < 100000000){}
+  else {alert("Please enter a valid existing debt amount"); document.CALC.exdebt.value=0; return false;}
+  
+
+
+}// end form validation funtion
+
+function ClearGFE(){
+  clearTownships();
+  removeAllOptions();
+  document.CALC.state.value = "NA";
+  document.CALC.salesprice.value = 0;
+  document.CALC.exdebt.value = 0;
+  document.CALC.loanamount.value = 0;
+  document.CALC.filename.value = "";
+  document.CALC.loanid.value = "";
+  
+  document.CALC.TitleOrderOnly.checked = false;
+  document.CALC.FirstTime.checked = false;
+  document.CALC.loantype[0].checked = true;
+}
+  </script>
+</head>
+
+<body style="background: #efeee9;">
+
+<div class="container">
+
+<nav class="navbar navbar-default hidden-xs" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="http://lssoftwaresolutions.com/" target="_blank"><img class="img-responsive" src="./Images/lode_star_logo.png" style="height:50px;widht:102px" alt="Responsive image"/></a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="GFE_main.php">GFE</a></li>
+<!--      <li><a href="AC_main.php">Affordability</a></li>
+      <li><a href="CEMA_main.php">New York</a></li>
+      <li><a href="COMM_main.php">Commercial</a></li>-->
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="ordertitle.php">Order Title</a></li>
+      <li><a href="myprofile.php">My Profile</a></li>
+      <li><a href="history.php">My Searches</a></li>
+      <li><a href="logout.php">Log Out</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+
+</nav>
+
+
+<div class='middle'>
+  <div class="container">
+       <p class="hidden-xs" style="margin-left:15px;font-family:arial;color:grey;font-size:30px;">GFE Fee Calculator
+        <br/>
+        <!-- #Implement-->
+        <!--Change URL path to direct to client file folder -->
+  <form name="CALC" id="CALC" class="form-horizontal" role="form" onsubmit="return ValidateGFE();">
+  <div class="form-group">
+    <label for="purpose" class="col-sm-2 control-label" style="vertical-align:bottom;">Loan Type</label>
+    <div class="col-sm-offset-2 col-sm-10">
+    <select name="purpose" class="form-control">
+      <option value="1">Purchase</option>
+      <option value="0">Refinance</option>
+    </select>
+    </div>
+  </div>
+  <div class="form-group" style="margin-top:-20px;">
+    <div class="col-sm-offset-2 col-sm-10">
+    <div class="checkbox">
+      <label>
+        <input name="TitleOrderOnly" type="checkbox" value="">
+        Title Order Only (NJ & NY)
+      </label>
+    </div>
+    </div>
+  </div>  
+
+  <div class="form-group">
+    <label for="zip_code" class="col-sm-2 control-label">Zipcode</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control" id="zip_code" name="zip_code" placeholder="10001">
+    </div>
+  
+  </div>
+  
+  <div class="form-group">
+    <label for="purchase_price" class="col-sm-2 control-label">Purchase Price</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control" id="purchase_price" name="purchase_price" placeholder="$200,000">
+    </div>
+  
+  </div>  
+  
+  <div class="form-group">
+    <label for="loan_amount" class="col-sm-2 control-label">Loan Amount</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control" id="loan_amount" name="loan_amount" placeholder="$100,000">
+    </div>
+  
+  </div>
+  
+  <div class="form-group">
+    <label for="exdebt" class="col-sm-2 control-label">Existing Debt</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control" id="exdebt" name="exdebt" placeholder="$0">
+      <p class="help-block">(Refis in FL,MD & NJ only).</p>
+    </div>
+  
+  </div>  
+
+  <div class="form-group">
+  <div class="col-sm-offset-2 col-sm-10">
+    <label class="checkbox-inline">
+      <input type="checkbox" id="inlineCheckbox1" name="FirstTime" value="FirstTime"> First Time Home Buyer
+    </label>
+  </div>
+  <div class="col-sm-offset-2 col-sm-10">
+    <label class="checkbox-inline">
+      <input type="checkbox" id="inlineCheckbox2" name="PrincipleResidence" value="PrincipleResidence"> Principle Residence
+    </label>
+  </div>
+  </div>
+    
+  </form>
+    <div class="col-md-4 column" style="border-bottom:0px;">
+      <div class="btn-group">
+       <button class="btn btn-sm btn-default" type="submit" id="CalculateRate" name="CalculateRate">
+         Calculate Rate
+       </button>
+       </div>
+    </div>
+    <div class="col-md-12 col-md-offset-3 column col-centered" style="border-bottom:0px;">
+      <div class="btn-group btn-group-md" style="width:100%;">
+         <button class="btn btn-primary email-quote" type="submit" style="width:100%;" id="EmailQuote1" name="  EmailQuote">
+          Email Quote
+        </button>
+        </div>
+      </div>
+ <div id="dialog" type="button" class="overlay" title="GFE Calculations" style="font-size:10px; position: absolute;left: 0px;top: 0px; width:100%;height:100%;text-align:center; z-index: 100000;">
+       <div class='overlaybody'>
+        <button class="overlay-close btn" type="button"></button>
+        <div class='overlay-text'></div>
+        <div class="btn-group btn-group-md" style="width:100%;">
+          <button class="btn btn-primary email-quote" type="submit" style="width:100%;" id="EmailQuote2" name="EmailQuote"> Email Quote </button>
+        </div>
+          <div class="btn-group btn-group-md" style="width:100%;">
+       <button class="btn btn-success request-title" type="submit" style="width:100%;" id="request-title" name="request-title">
+         Request Title Order
+       </button>
+          </div>
+      </div>
+  </div>  
+</div>
+<br/>
+  
+        <!-- #Implement -->
+        <!--Change URL path to direct to client file folder -->
+  
+  </div>
+</div>
+
+  <!-- End of Rate calculator -->
+
+</body>
+</html>

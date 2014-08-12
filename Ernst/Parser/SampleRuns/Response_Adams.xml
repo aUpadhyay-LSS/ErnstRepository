@@ -1,0 +1,659 @@
+<Response>
+<TransactionID>57406445</TransactionID>
+<ErnstResponse>
+<Request>
+<ClientTransactionID>
+</ClientTransactionID>
+<TransactionID>57406445</TransactionID>
+<Page>PA005</Page>
+<City>
+</City>
+<County>Adams</County>
+<State>PA</State>
+<TransactionCode>100</TransactionCode>
+<DeedNumberOfPages>3</DeedNumberOfPages>
+<MortgageNumberOfPages>20</MortgageNumberOfPages>
+<MortgageAmount>200000.0</MortgageAmount>
+<OriginalDebtAmount>0.0</OriginalDebtAmount>
+<UnpaidPrincipalBalance>0.0</UnpaidPrincipalBalance>
+<EstimatedValue>250000.0</EstimatedValue>
+<Title>
+</Title>
+<TitleAmount>0.0</TitleAmount>
+<OriginalTitleAmount>0.0</OriginalTitleAmount>
+<OriginalMortgageDate>
+</OriginalMortgageDate>
+<AssignmentPages>
+</AssignmentPages>
+<AssignmentNumber>
+</AssignmentNumber>
+<ReleasePages>3</ReleasePages>
+<ReleaseNumber>1</ReleaseNumber>
+<StateQuestions>
+<Q1>
+</Q1>
+<Q2>
+</Q2>
+<Q3>
+</Q3>
+<Q4>
+</Q4>
+<Q5>
+</Q5>
+<Q6>
+</Q6>
+<Q7>
+</Q7>
+<Q8>
+</Q8>
+<Q9>
+</Q9>
+<Q10>
+</Q10>
+<Q11>
+</Q11>
+<Q12>
+</Q12>
+<Q13>
+</Q13>
+<Q14>
+</Q14>
+<Q15>
+</Q15>
+<Q16>
+</Q16>
+<Q17>
+</Q17>
+<Q18>
+</Q18>
+<Q19>
+</Q19>
+<Q20>
+</Q20>
+<Q21>
+</Q21>
+<Q22>
+</Q22>
+<Q23>
+</Q23>
+<Q24>
+</Q24>
+<Q25>
+</Q25>
+<Q26>
+</Q26>
+<Q27>
+</Q27>
+<Q28>
+</Q28>
+<Q29>
+</Q29>
+<Q30>
+</Q30>
+<Q31>
+</Q31>
+<Q32>
+</Q32>
+<Q33>
+</Q33>
+<Q34>
+</Q34>
+<Q35>
+</Q35>
+<Q36>
+</Q36>
+<Q37>
+</Q37>
+<Q38>
+</Q38>
+<Q39>
+</Q39>
+<Q40>
+</Q40>
+<Q41>
+</Q41>
+<Q42>
+</Q42>
+<Q43>
+</Q43>
+<Q44>
+</Q44>
+<Q45>
+</Q45>
+<Q46>
+</Q46>
+<Q47>
+</Q47>
+<Q48>
+</Q48>
+<Q49>
+</Q49>
+<Q50>
+</Q50>
+<V1>
+</V1>
+<V2>
+</V2>
+<V3>
+</V3>
+<V4>
+</V4>
+<V5>
+</V5>
+<V6>
+</V6>
+<V7>
+</V7>
+<V8>
+</V8>
+<V9>
+</V9>
+<V10>
+</V10>
+<V11>
+</V11>
+<V12>
+</V12>
+<V13>
+</V13>
+<V14>
+</V14>
+<V15>
+</V15>
+<V16>
+</V16>
+<V17>
+</V17>
+<V18>
+</V18>
+<V19>
+</V19>
+<V20>
+</V20>
+<V21>
+</V21>
+<V22>
+</V22>
+<V23>
+</V23>
+<V24>
+</V24>
+<V25>
+</V25>
+<V26>
+</V26>
+<V27>
+</V27>
+<V28>
+</V28>
+<V29>
+</V29>
+<V30>
+</V30>
+<V31>
+</V31>
+<V32>
+</V32>
+<V33>
+</V33>
+<V34>
+</V34>
+<V35>
+</V35>
+<V36>
+</V36>
+<V37>
+</V37>
+<V38>
+</V38>
+<V39>
+</V39>
+<V40>
+</V40>
+<V41>
+</V41>
+<V42>
+</V42>
+<V43>
+</V43>
+<V44>
+</V44>
+<V45>
+</V45>
+<V46>
+</V46>
+<V47>
+</V47>
+<V48>
+</V48>
+<V49>
+</V49>
+<V50>
+</V50>
+</StateQuestions>
+</Request>
+<Data>
+<Refacts>
+<STABBR>PA</STABBR>
+<ROFFICE>Adams County</ROFFICE>
+<COUNTY>Adams</COUNTY>
+<PAGE>PA005</PAGE>
+<PAGEKEY2>PA059</PAGEKEY2>
+<PHONE>717-337-9826</PHONE>
+<EXT />
+<FAX>717-334-1758</FAX>
+<TIMEZONE>EST</TIMEZONE>
+<ATTN>Attn: Real Estate Recording</ATTN>
+<DEPT>Adams County Recorder of Deeds</DEPT>
+<PAYEE>Adams County Recorder of Deeds</PAYEE>
+<FEEPAY>Not required.</FEEPAY>
+<MADDR1>117 Baltimore Street</MADDR1>
+<MADDR2>County Courthouse Room 102</MADDR2>
+<MCITYST>Gettysburg, PA 17325-2398</MCITYST>
+<MCITY>Gettysburg</MCITY>
+<MZIP>17325-2398</MZIP>
+<CADDR1>117 Baltimore Street</CADDR1>
+<CADDR2>County Courthouse Room 102</CADDR2>
+<CCITYST>Gettysburg, PA 17325</CCITYST>
+<CCITY>Gettysburg</CCITY>
+<CZIP>17325</CZIP>
+<HOURS>8AM-4:30PM</HOURS>
+<TITLE>County Recorder of Deeds</TITLE>
+<TAT>1 week</TAT>
+<TATNUM>7</TATNUM>
+<DEED>Grantor/Grantee</DEED>
+<MORTGAGE>Mortgagor/Mortgagee</MORTGAGE>
+<COUNTYFIPS>42001</COUNTYFIPS>
+<LASTUPD>10/18/2013</LASTUPD>
+<DEEDDESC>Deed/Mortgage</DEEDDESC>
+<DEEDFEE>53.5</DEEDFEE>
+<DEEDCD>176</DEEDCD>
+<MORTDESC> </MORTDESC>
+<MORTFEE>0</MORTFEE>
+<MORTCD>0</MORTCD>
+<AMFEE>20.5</AMFEE>
+<AMCD>176</AMCD>
+<ASSNDESC>Assignment</ASSNDESC>
+<ASSNFEE>44</ASSNFEE>
+<ASSNCD>176</ASSNCD>
+<SATDESC>Satisfaction Piece</SATDESC>
+<SATFEE>44</SATFEE>
+<SATCD>417</SATCD>
+<ADDPGFEE>4</ADDPGFEE>
+<ADDPGCD>295</ADDPGCD>
+<NONSTDFEE>0</NONSTDFEE>
+<NSCD>0</NSCD>
+<SMPRNTFEE>0</SMPRNTFEE>
+<SMPRCD>0</SMPRCD>
+<LEGALFEE>18.5</LEGALFEE>
+<LEGALCD>176</LEGALCD>
+<ADDTYPE1>3</ADDTYPE1>
+<ADDFEE1>1</ADDFEE1>
+<ADDCD1>368</ADDCD1>
+<ADDTYPE2>28</ADDTYPE2>
+<ADDFEE2>2</ADDFEE2>
+<ADDCD2>104</ADDCD2>
+<ADDTYPE3>3</ADDTYPE3>
+<ADDFEE3>0.5</ADDFEE3>
+<ADDCD3>369</ADDCD3>
+<ADDTYPE4>0</ADDTYPE4>
+<ADDFEE4>0</ADDFEE4>
+<ADDCD4>0</ADDCD4>
+<ADDTYPE5>0</ADDTYPE5>
+<ADDFEE5>0</ADDFEE5>
+<ADDCD5>0</ADDCD5>
+<ADDTYPE6>0</ADDTYPE6>
+<ADDFEE6>0</ADDFEE6>
+<ADDCD6>0</ADDCD6>
+<DESC1>State Realty Transfer Tax</DESC1>
+<TAX1>0.01</TAX1>
+<TAX1CD>289</TAX1CD>
+<DESC2>Local Realty Transfer Tax</DESC2>
+<TAX2>0.01</TAX2>
+<TAX2CD>289</TAX2CD>
+<DESC3 />
+<TAX3>0</TAX3>
+<TAX3CD>0</TAX3CD>
+<TAXNOTE>PATAX</TAXNOTE>
+<SEARCH>N</SEARCH>
+<COPYFEE>0.25</COPYFEE>
+<COPYCD1>11</COPYCD1>
+<COPYFEE2>0.25</COPYFEE2>
+<COPYCD2>24</COPYCD2>
+<CERTFEE>2</CERTFEE>
+<CERTCD>32</CERTCD>
+<DOCSYSTEM>Book &amp; Page</DOCSYSTEM>
+<DSEXAMPLE />
+<FEENOTE1>PA059</FEENOTE1>
+<FEENOTE2>PAST0</FEENOTE2>
+<FEENOTE3 />
+<RECNOTE1 />
+<RECNOTE2 />
+<RECNOTE3>PAERR</RECNOTE3>
+<BLASSN>Y</BLASSN>
+<BLREL>Y</BLREL>
+<ARNUM>5</ARNUM>
+<ARTYPE>a</ARTYPE>
+<DOCRETURN />
+<SASE>Q</SASE>
+<SUBDOCS>Y</SUBDOCS>
+<LDIND>a</LDIND>
+<LDDESC>Legal description required with all instruments to be recorded.</LDDESC>
+<CAPFEE>0</CAPFEE>
+<CAPCD>0</CAPCD>
+<C1 />
+<PIN>n</PIN>
+<PINNAME />
+<PINON />
+<PINFORM />
+<PINNOTE />
+<WEBADDR>www.adamscounty.us/countyoffices/electedofficials/registerrecorder.aspx</WEBADDR>
+<FIPSB>42001</FIPSB>
+<UPDATED>Additional page fees</UPDATED>
+</Refacts>
+</Data>
+<SupplementalAddress>
+<Address>
+<Type>Trustee</Type>
+<Name />
+<Address1 />
+<Address2 />
+<City />
+<State />
+<Zip />
+<Phone />
+<Fax />
+<Email />
+</Address>
+<Address>
+<Type>Payee</Type>
+<Name />
+<Address1 />
+<Address2 />
+<City />
+<State />
+<Zip />
+<Phone />
+<Fax />
+<Email />
+</Address>
+</SupplementalAddress>
+<Display>
+<Calculation>
+<Mortgage>
+<Fee>117.5</Fee>
+<Tax>0.00</Tax>
+<RoundedMortgage>0</RoundedMortgage>
+<StateTax>0.00</StateTax>
+<CountyTax>0.00</CountyTax>
+<CityTax>0.00</CityTax>
+</Mortgage>
+<Deed>
+<Fee>53.5</Fee>
+<Tax>5000.00</Tax>
+<RoundedDeed>250000</RoundedDeed>
+<StateTax>2500.00</StateTax>
+<CountyTax>2500.00</CountyTax>
+<CityTax>0.00</CityTax>
+<BuyerSplit>0.00</BuyerSplit>
+<BuyerSplitRate>0</BuyerSplitRate>
+<SellerSplit>0.00</SellerSplit>
+<SellerSplitRate>0</SellerSplitRate>
+<BuyerSellerNote />
+<RoundedDeedState>0</RoundedDeedState>
+<RoundedDeedCounty>0</RoundedDeedCounty>
+<RoundedDeedCity>0</RoundedDeedCity>
+</Deed>
+<Release>
+<Fee>44</Fee>
+</Release>
+<HUD>
+<HUDLine>
+<LineNumber>1109</LineNumber>
+<LineDescription>Lenders Coverage</LineDescription>
+<TitlePremium>0</TitlePremium>
+</HUDLine>
+<HUDLine>
+<LineNumber>1201</LineNumber>
+<LineDescription>Recording fees</LineDescription>
+<DeedAmount>53.5</DeedAmount>
+<MortgageAmount>117.5</MortgageAmount>
+<ReleaseAmount>44</ReleaseAmount>
+</HUDLine>
+<HUDLine>
+<LineNumber>1202</LineNumber>
+<LineDescription>City/County tax/stamps</LineDescription>
+<DeedAmount>2500.00</DeedAmount>
+<MortgageAmount>0.00</MortgageAmount>
+<ReleaseAmount>0</ReleaseAmount>
+</HUDLine>
+<HUDLine>
+<LineNumber>1203</LineNumber>
+<LineDescription>State tax/stamps</LineDescription>
+<DeedAmount>2500.00</DeedAmount>
+<MortgageAmount>0.00</MortgageAmount>
+<ReleaseAmount>0</ReleaseAmount>
+</HUDLine>
+<HUDLine>
+<LineNumber>1204</LineNumber>
+<LineDescription>Miscellaneous fee/taxes</LineDescription>
+<DeedAmount>0</DeedAmount>
+<MortgageAmount>0</MortgageAmount>
+<ReleaseAmount>0</ReleaseAmount>
+</HUDLine>
+<HUDLine>
+<LineNumber>1205</LineNumber>
+<LineDescription>Miscellaneous fee/taxes</LineDescription>
+<DeedAmount>0</DeedAmount>
+<MortgageAmount>0</MortgageAmount>
+<ReleaseAmount>0</ReleaseAmount>
+</HUDLine>
+</HUD>
+<MortgageFee>117.5</MortgageFee>
+<MortgageTax>0.00</MortgageTax>
+<MortgageNote>
+</MortgageNote>
+<DeedFee>53.5</DeedFee>
+<DeedTax>5000.00</DeedTax>
+<DeedNote>
+</DeedNote>
+<Assumptions>
+<Assumption>
+<![CDATA[THERE ARE LESS THAN 5 NAMES ON THE DOCUMENT.]]>
+</Assumption>
+<Assumption>
+<![CDATA[THE RECORDING IS NOT TAX EXEMPT.]]>
+</Assumption>
+<Assumption>
+<![CDATA[THERE IS ONLY ONE PARCEL ON THE DOCUMENT.]]>
+</Assumption>
+<Assumption>
+<![CDATA[THERE ARE LESS THAN 2 AFFIDAVITS OF VALUE PER DOCUMENT.]]>
+</Assumption>
+</Assumptions>
+</Calculation>
+<RecordingWorksheet>
+<Office>
+<County>
+</County>
+<CourierAddress1>117 Baltimore Street</CourierAddress1>
+<CourierAddress2>County Courthouse Room 102</CourierAddress2>
+<CourierCityStateZIP>Gettysburg, PA 17325</CourierCityStateZIP>
+<Department>Attn: Real Estate Recording</Department>
+<Fax>717-334-1758</Fax>
+<Jurisdiction>Adams County Recorder of Deeds</Jurisdiction>
+<MailingAddress1>117 Baltimore Street</MailingAddress1>
+<MailingAddress2>County Courthouse Room 102</MailingAddress2>
+<MailingCityStateZIP>Gettysburg, PA 17325-2398</MailingCityStateZIP>
+<MoneyOrder>Not required.</MoneyOrder>
+<Payee>Adams County Recorder of Deeds</Payee>
+<Phone>717-337-9826</Phone>
+<PhoneExt>
+</PhoneExt>
+<RecordingOffice>Adams County</RecordingOffice>
+<TimeZone>EST</TimeZone>
+<Website>http://www.adamscounty.us/countyoffices/electedofficials/registerrecorder.aspx</Website>
+</Office>
+<BasicRecordingFees>
+<Heading>BASIC RECORDING FEES:</Heading>
+<Fee>
+<Description>Deed/Mortgage</Description>
+<Amount>$53.50</Amount>
+<Label>up to and including four pages</Label>
+</Fee>
+<Fee>
+<Description>Amendment/Modification</Description>
+<Amount>$20.50</Amount>
+<Label>up to and including four pages</Label>
+</Fee>
+<Fee>
+<Description>Assignment</Description>
+<Amount>$44.00</Amount>
+<Label>up to and including four pages</Label>
+</Fee>
+<Fee>
+<Description>Satisfaction Piece</Description>
+<Amount>$44.00</Amount>
+<Label>up to and including four pages (see note 2)</Label>
+</Fee>
+<Fee>
+<Description>Power of Attorney</Description>
+<Amount>$18.50</Amount>
+<Label>up to and including four pages</Label>
+</Fee>
+</BasicRecordingFees>
+<AdditionalRecordingFees>
+<Heading>ADDITIONAL RECORDING FEES:</Heading>
+<Fee>
+<Description>Additional pages and attachments</Description>
+<Amount>$4.00</Amount>
+<Label>per additional page ($2.00 for Assignment, P of A, or Satisfaction)</Label>
+</Fee>
+<Fee>
+<Description>Indexing fee</Description>
+<Amount>$1.00</Amount>
+<Label>per name after first four (deeds and mortgages)</Label>
+</Fee>
+<Fee>
+<Description>Multiple assignments on one document</Description>
+<Amount>$2.00</Amount>
+<Label>per reference after first</Label>
+</Fee>
+<Fee>
+<Description>Indexing fee</Description>
+<Amount>$0.50</Amount>
+<Label>per name after first four (other documents)</Label>
+</Fee>
+</AdditionalRecordingFees>
+<RecordingFeeNotes>
+<Heading>RECORDING FEE NOTES:</Heading>
+<Note>
+<![CDATA[1. Limit blanket assignments to five per instrument.]]>
+</Note>
+<Note>
+<![CDATA[2. The original mortgage or certified copy thereof is no longer required to accompany a satisfaction piece, although it may.]]>
+</Note>
+</RecordingFeeNotes>
+<Taxes>
+<Heading>TRANSFER AND FINANCING FEES/TAXES:</Heading>
+<Tax>
+<Description>State Realty Transfer Tax</Description>
+<Amount>$0.01</Amount>
+<Label>times consideration or fair market value</Label>
+</Tax>
+<Tax>
+<Description>Local Realty Transfer Tax</Description>
+<Amount>$0.01</Amount>
+<Label>times consideration or fair market value</Label>
+</Tax>
+<Note>
+<![CDATA[Pay each tax and the recording fees with three separate checks to the Recorder of Deeds.]]>
+</Note>
+</Taxes>
+<Searches>
+<Heading>SEARCHES, COPIES AND CERTIFICATION:</Heading>
+<Note>
+<![CDATA[This office does not perform any searches of real estate records.]]>
+</Note>
+<Fee>
+<Description>Copies made by office</Description>
+<Amount>$0.25</Amount>
+<Label>per page</Label>
+</Fee>
+<Fee>
+<Description>Certification (in addition to copy fees)</Description>
+<Amount>$2.00</Amount>
+<Label>per document</Label>
+</Fee>
+</Searches>
+<RecordingNotes>
+<Heading>DOCUMENTATION/RECORDING NOTES:</Heading>
+<Note>
+<![CDATA[Blanket assignments are accepted.]]>
+</Note>
+<Note>
+<![CDATA[Blanket releases are accepted.]]>
+</Note>
+<Note>
+<![CDATA[Originals of real estate documents are always returned after recording.]]>
+</Note>
+<Note>
+<![CDATA[A self addressed stamped return envelope of the proper size is requested.]]>
+</Note>
+<Note>
+<![CDATA[In subsequent related documents, include references (book/page, doc#, etc.) to all prior related documents.]]>
+</Note>
+<Note>
+<![CDATA[Index for Deeds: Grantor/Grantee]]>
+</Note>
+<Note>
+<![CDATA[Index for Mortgages: Mortgagor/Mortgagee]]>
+</Note>
+<Note>
+<![CDATA[Common document errors include incorrect fee, signatures do not agree with printed name, notarial certificate incomplete or seal missing, stamped envelope not included, and missing parcel identification number and municipality name.]]>
+</Note>
+<Note>
+<![CDATA[This office reports a document turnaround time of 1 week]]>
+</Note>
+<Note>
+<![CDATA[Most recent annual document volume reported by this office: 18000]]>
+</Note>
+<DocSystem>Book &amp; Page</DocSystem>
+<DSExample>
+</DSExample>
+</RecordingNotes>
+<LDDescription>
+<![CDATA[Legal description required with all real estate instruments to be recorded.]]>
+</LDDescription>
+<PIN>
+<PINRequired>Not required</PINRequired>
+</PIN>
+<OnlineSearching>www.adamscounty.us</OnlineSearching>
+<ConformedCopies>This office does not provide Conformed Copies.</ConformedCopies>
+<SASE>Include a self-addressed, stamped envelope for return of Conformed Copies.</SASE>
+<UCCOfficials>
+<Heading>RECORDING OFFICE STAFF:</Heading>
+<Official>
+<Description>Head Official</Description>
+<Name>Linda K Myers(registerrecorder@adamscounty.us)</Name>
+<Title>Register &amp; Recorder</Title>
+</Official>
+</UCCOfficials>
+</RecordingWorksheet>
+<DocumentLinks>
+<Link>
+<Label>Charts</Label>
+<URL>
+<![CDATA[http://www.ernstpublishing.com/extsubscribers/ResourceDownload.asp?username=LodeStar&password=TestAccoun&action=authenticate&doc=repdfs/intros/allcharts.pdf]]>
+</URL>
+</Link>
+<Link>
+<Label>State Forms</Label>
+<URL>
+<![CDATA[http://www.ernstpublishing.com/extsubscribers/ResourceDownload.asp?username=LodeStar&password=TestAccoun&action=authenticate&doc=repdfs/illustrations/PAf.pdf]]>
+</URL>
+</Link>
+</DocumentLinks>
+</Display>
+</ErnstResponse>
+</Response>
